@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">City Plugin</lang>
+        <lang name="russian">Города (City plugin)</lang>
+	</name>
+	<author>
+		<lang name="default">Taras Rybak</lang>
+        <lang name="russian">Тарас Рибак</lang>
+	</author>
+	<homepage>http://ls.vaktive.ru/</homepage>
+	<version>1.0.1.13</version>
+	<requires>
+		<livestreet>1.0.3</livestreet>
+		<plugins>
+
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">List of rating cityes and  blogs</lang>
+		<lang name="russian">Каталог городов и их блоги.</lang>
+	</description>
+    <settings>{city}settings/</settings>
+	<delegate>
+		<module></module>
+		<action></action>
+		<template></template>
+		<entity></entity>
+	</delegate>
+</plugin>
